@@ -1,0 +1,51 @@
+.life {
+  background-image: url("/public/images/img-2.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  height: 100%;
+}
+
+.life > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: 15px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  flex: 1.5;
+  border-radius: 10px;
+  text-align: center;
+  flex-direction: column;
+  width: 70%;
+  height: fit-content;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: 1px 1px 20px lightgray;
+  position: relative;
+
+  font-size: 25px;
+}
+
+.box > h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #07031c;
+}
+
+.about {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-wrap: anywhere;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  font-size: medium;
+  color: #4a4d4f;
+}
